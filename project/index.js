@@ -1,7 +1,7 @@
 const jsonUrl = "./data.json";
 
 function getMovie(movieId) {
-    const movieElement = document.getElementById('c1');
+    const movieElement = document.getElementById(movieId);
 
     fetch(jsonUrl)
         .then(response => {
@@ -16,7 +16,7 @@ function getMovie(movieId) {
 
             if (movie) {
                 movieElement.innerHTML = `
-                <h2>${movie.title}</h2>
+                <h1>${movie.title}</h1>
                 <p>Starring: ${movie.star}</p>
                 <p>IMDb Rating: ${movie.imdbRating}</p>
                 <p>Genre: ${movie.genre}</p>
