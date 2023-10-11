@@ -1,0 +1,85 @@
+{
+    "genres": {
+        "comedyMovies": [
+            {
+                "id": "c1",
+                "title": "The Other Guys",
+                "genre": "Comedy",
+                "star": "Will Ferrell",
+                "imdbRating": 6.6,
+                "url": "https://www.imdb.com/title/tt1386588/"
+            },
+            {
+                "id": "c2",
+                "title": "Zootopia",
+                "genre": "Comedy",
+                "star": "Jason Bateman",
+                "imdbRating": 8.0,
+                "url": "https://www.imdb.com/title/tt2948356/"
+            },
+            {
+                "id": "c3",
+                "title": "Superbad",
+                "genre": "Comedy",
+                "star": "Michael Cera",
+                "imdbRating": 7.6,
+                "url": "https://www.imdb.com/title/tt0829482/"
+            }
+        ],
+        "actionMovies": [
+            {
+                "id": "a1",
+                "title": "The Matrix",
+                "genre": "Action",
+                "star": "Keanu Reeves",
+                "imdbRating": 8.7,
+                "url": "https://www.imdb.com/title/tt0133093/"
+            },
+            {
+                "id": "a2",
+                "title": "Jaws",
+                "genre": "Action",
+                "star": "Row Scheider",
+                "imdbRating": 8.1,
+                "url": "https://www.imdb.com/title/tt0073195/"
+            },
+            {
+                "id": "a3",
+                "title": "Gladiator",
+                "genre": "Action",
+                "star": "Russell Crowe",
+                "imdbRating": 8.5,
+                "url": "https://www.imdb.com/title/tt0172495/"
+            }
+        ],
+        "documentaryMovies": [
+            {
+                "id": "d1",
+                "title": "O.J.: Made in America",
+                "genre": "Documentary",
+                "topic": "O.J Simpson",
+                "categories": ["Crime", "Historical", "Celebrity"],
+                "imdbRating": 8.9,
+                "url": "https://www.imdb.com/title/tt5275892/"
+            },
+            {
+                "id": "d2",
+                "title": "Free Solo",
+                "genre": "Documentary",
+                "topic": "Alex Honnold",
+                "categories": ["Outdoors", "Extreme Sports", "Rock Climbing"],
+                "imdbRating": 8.1,
+                "url": "https://www.imdb.com/title/tt7775622/"
+            },
+            {
+                "id": "d3",
+                "title": "Untold: Johnny Football",
+                "genre": "Documentary",
+                "topic": "Johnny Manziel",
+                "categories": ["Football", "Celebrity"],
+                "imdbRating": 6.9,
+                "url": "https://www.imdb.com/title/tt28089651/"
+            }
+        ]
+    }
+}
