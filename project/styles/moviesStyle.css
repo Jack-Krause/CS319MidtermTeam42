@@ -1,6 +1,11 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+.movie-cell {
+    border: 5px solid white; /* Adjust the color and size as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    border-radius: 5px; /* Add rounded corners if desired */
+}
 
 body {
     padding-top: 3rem;
