@@ -11,11 +11,7 @@ body {
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
-  .comedy-btn {
-    background-color: red;
-  }
-
-
+  
   /* Carousel base class */
   .carousel {
     margin-bottom: 4rem;
