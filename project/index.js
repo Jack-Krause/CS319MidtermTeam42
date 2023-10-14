@@ -3,7 +3,7 @@ const jsonUrl = "./data.json";
 
 function getMovie(movieId) {
     const movieElement = document.getElementById(movieId);
-    const tempButton = document.getElementById(`${movieId}_button`);
+    // const tempButton = document.getElementById(`${movieId}_button`);
 
     fetch(jsonUrl)
         .then(response => {
@@ -23,11 +23,9 @@ function getMovie(movieId) {
                 <p>Genre: ${movie.genre}</p>
                 <p>URL: <a href="${movie.url}">IMDb Link</a></p>
                 `;
-                tempButton.innerText="Close";
-                tempButton.addEventListener("click", function() {
-                    movieElement.innerHTML = `
-                    <p>Movie Data</p>`;
-                });
+                // tempButton.hidden = true;
+                // const tempCollapse = document.getElementById(`${movieId}_collapse`);
+                // tempCollapse.hidden = false;
             } else {
                 movieElement.innerHTML = 'Movie not found';
             }
@@ -37,16 +35,39 @@ function getMovie(movieId) {
         });
 }
 
+function collapseMovie(movieId) {
+    let tempContainer = document.getElementById(movieId);
+    tempContainer.innerHTML = "";
+}
+
+
 //show more info for comedy-c1
 const c1Button = document.getElementById("c1_button");
 c1Button.addEventListener("click", function() {
+    c1Button.hidden = true;
     getMovie('c1');
+    c1Collapse.hidden = false;
 });
+const c1Collapse = document.getElementById("c1_collapse");
+c1Collapse.addEventListener("click", function() {
+    c1Collapse.hidden = true;
+    collapseMovie('c1');
+    c1Button.hidden = false;
+});
+
 
 //comedy-c2
 const c2Button = document.getElementById("c2_button");
 c2Button.addEventListener("click", function() {
+    c2Button.hidden = true;
     getMovie('c2');
-})
+    c2Collapse.hidden = false;
+});
+const c2Collapse = document.getElementById("c2_collapse");
+c2Collapse.addEventListener("click", function() {
+    c2Collapse.hidden = true;
+    collapseMovie('c2');
+    c2Button.hidden = false;
+});
 
 
