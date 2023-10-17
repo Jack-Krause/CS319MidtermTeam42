@@ -8,7 +8,7 @@
                 "star": "Will Ferrell",
                 "imdbRating": 6.6,
                 "url": "https://www.imdb.com/title/tt1386588/",
-                "imagePath": "./images/theotherguys1.jpg"
+                "imagePath": "./images/the_other_guys_cover.jpg"
             },
             {
                 "id": "c2",
@@ -17,7 +17,7 @@
                 "star": "Jason Bateman",
                 "imdbRating": 8.0,
                 "url": "https://www.imdb.com/title/tt2948356/",
-                "imagePath": "./images/zootopia1.jpg"
+                "imagePath": "./images/zootopia_cover.jpg"
             },
             {
                 "id": "c3",
@@ -26,7 +26,7 @@
                 "star": "Michael Cera",
                 "imdbRating": 7.6,
                 "url": "https://www.imdb.com/title/tt0829482/",
-                "imagePath": "./images/superbad1.jpg"
+                "imagePath": "./images/superbad_cover.jpg"
             }
         ],
         "actionMovies": [
@@ -36,7 +36,8 @@
                 "genre": "Action",
                 "star": "Keanu Reeves",
                 "imdbRating": 8.7,
-                "url": "https://www.imdb.com/title/tt0133093/"
+                "url": "https://www.imdb.com/title/tt0133093/",
+                "imagePath": "./images/matrix_cover.jpg"
             },
             {
                 "id": "a2",
@@ -44,7 +45,8 @@
                 "genre": "Action",
                 "star": "Roy Scheider",
                 "imdbRating": 8.1,
-                "url": "https://www.imdb.com/title/tt0073195/"
+                "url": "https://www.imdb.com/title/tt0073195/",
+                "imagePath": "./images/jaws_cover.jpg"
             },
             {
                 "id": "a3",
@@ -52,7 +54,8 @@
                 "genre": "Action",
                 "star": "Russell Crowe",
                 "imdbRating": 8.5,
-                "url": "https://www.imdb.com/title/tt0172495/"
+                "url": "https://www.imdb.com/title/tt0172495/",
+                "imagePath": "./images/gladiator_cover.jpg"
             }
         ],
         "documentaryMovies": [
@@ -63,7 +66,8 @@
                 "topic": "O.J Simpson",
                 "categories": ["Crime", "Historical", "Celebrity"],
                 "imdbRating": 8.9,
-                "url": "https://www.imdb.com/title/tt5275892/"
+                "url": "https://www.imdb.com/title/tt5275892/",
+                "imagePath": "./images/oj_made_in_america_cover.jpg"
             },
             {
                 "id": "d2",
@@ -72,7 +76,8 @@
                 "topic": "Alex Honnold",
                 "categories": ["Outdoors", "Extreme Sports", "Rock Climbing"],
                 "imdbRating": 8.1,
-                "url": "https://www.imdb.com/title/tt7775622/"
+                "url": "https://www.imdb.com/title/tt7775622/",
+                "imagePath": "./images/free_solo_cover.jpg"
             },
             {
                 "id": "d3",
@@ -81,7 +86,8 @@
                 "topic": "Johnny Manziel",
                 "categories": ["Football", "Celebrity"],
                 "imdbRating": 6.9,
-                "url": "https://www.imdb.com/title/tt28089651/"
+                "url": "https://www.imdb.com/title/tt28089651/",
+                "imagePath": "./images/untold_johnny_football_cover.jpg"
             }
         ]
     }

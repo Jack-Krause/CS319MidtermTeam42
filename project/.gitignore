@@ -1,0 +1,33 @@
+# Node modules (in case you use them in the future)
+node_modules/
+
+# Operating System generated files
+.DS_Store  # For macOS
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db  # For Windows
+Thumbs.db
+Desktop.ini
+
+# IDE generated files
+.vscode/  # If you're using Visual Studio Code
+.idea/  # If you're using IntelliJ IDEA or related products
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Build artifacts and distribution files
+/dist/
+
+# Map files (if you don't want to commit source maps)
+*.map
+
+# Other common files to ignore
+*.lock  # Dependency lock files, if you don't want them in your repo
+
