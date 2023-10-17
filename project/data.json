@@ -7,7 +7,8 @@
                 "genre": "Comedy",
                 "star": "Will Ferrell",
                 "imdbRating": 6.6,
-                "url": "https://www.imdb.com/title/tt1386588/"
+                "url": "https://www.imdb.com/title/tt1386588/",
+                "imagePath": "./images/theotherguys1.jpg"
             },
             {
                 "id": "c2",
@@ -15,7 +16,8 @@
                 "genre": "Comedy",
                 "star": "Jason Bateman",
                 "imdbRating": 8.0,
-                "url": "https://www.imdb.com/title/tt2948356/"
+                "url": "https://www.imdb.com/title/tt2948356/",
+                "imagePath": "./images/zootopia1.jpg"
             },
             {
                 "id": "c3",
@@ -23,7 +25,8 @@
                 "genre": "Comedy",
                 "star": "Michael Cera",
                 "imdbRating": 7.6,
-                "url": "https://www.imdb.com/title/tt0829482/"
+                "url": "https://www.imdb.com/title/tt0829482/",
+                "imagePath": "./images/superbad1.jpg"
             }
         ],
         "actionMovies": [
@@ -39,7 +42,7 @@
                 "id": "a2",
                 "title": "Jaws",
                 "genre": "Action",
-                "star": "Row Scheider",
+                "star": "Roy Scheider",
                 "imdbRating": 8.1,
                 "url": "https://www.imdb.com/title/tt0073195/"
             },
