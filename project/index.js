@@ -1,6 +1,7 @@
 const jsonUrl = "./data.json";
 
 
+//methods to give html functionality
 function getMovie(movieId) {
     const movieElement = document.getElementById(movieId);
     // const tempButton = document.getElementById(`${movieId}_button`);
@@ -40,8 +41,18 @@ function collapseMovie(movieId) {
     tempContainer.innerHTML = "";
 }
 
+function mouseOnContainer(elementName) {
+    let el = document.getElementById(elementName);
+    el.style.color = "goldenrod";
+}
 
-//show more info for comedy-c1
+function mouseExit(elementName) {
+    let el = document.getElementById(elementName);
+    el.style.color = "white";
+}
+
+
+// for comedy-c1
 const c1Button = document.getElementById("c1_button");
 c1Button.addEventListener("click", function() {
     c1Button.hidden = true;
@@ -54,7 +65,13 @@ c1Collapse.addEventListener("click", function() {
     collapseMovie('c1');
     c1Button.hidden = false;
 });
-
+const c1Container = document.getElementById("c1_container");
+c1Container.addEventListener("mouseover", function() {
+    mouseOnContainer("c1_title");
+});
+c1Container.addEventListener("mouseleave", function() {
+    mouseExit("c1_title");
+})
 
 //comedy-c2
 const c2Button = document.getElementById("c2_button");
@@ -69,5 +86,32 @@ c2Collapse.addEventListener("click", function() {
     collapseMovie('c2');
     c2Button.hidden = false;
 });
+const c2Container = document.getElementById("c2_container");
+c2Container.addEventListener("mouseover", function() {
+    mouseOnContainer("c2_title");
+})
+c2Container.addEventListener("mouseleave", function() {
+    mouseExit("c2_title");
+})
 
+//functionality for third movie
+const c3Button = document.getElementById("c3_button");
+c3Button.addEventListener("click", function() {
+    c3Button.hidden = true;
+    getMovie('c3');
+    c3collapse.hidden = false;
+});
+const c3collapse = document.getElementById("c3_collapse");
+c3collapse.addEventListener("click", function() {
+    c3collapse.hidden = true;
+    collapseMovie('c3');
+    c3Button.hidden = false;
+});
+const c3Container = document.getElementById("c3_container");
+c3Container.addEventListener("mouseover", function() {
+    mouseOnContainer("c3_title");
+});
+c3Container.addEventListener("mouseleave", function() {
+    mouseExit("c3_title");
+})
 
