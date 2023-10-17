@@ -70,4 +70,17 @@ c2Collapse.addEventListener("click", function() {
     c2Button.hidden = false;
 });
 
+//enlarge/collapse for third comedy
+const c3Button = document.getElementById("c3_button");
+c3Button.addEventListener("click", function() {
+    c3Button.hidden = true;
+    getMovie('c3');
+    c3collapse.hidden = false;
+});
+const c3collapse = document.getElementById("c3_collapse");
+c3collapse.addEventListener("click", function() {
+    c3collapse.hidden = true;
+    collapseMovie('c3');
+    c3Button.hidden = false;
+});
 
