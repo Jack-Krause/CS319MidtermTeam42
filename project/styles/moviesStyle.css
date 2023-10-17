@@ -3,15 +3,39 @@
 /* Padding below the footer and lighter body text */
 .movie-cell {
     border: 5px solid white; /* Adjust the color and size as needed */
-    padding: 10px; /* Adjust the padding as needed */
+    padding: 25px; /* Adjust the padding as needed */
     border-radius: 5px; /* Add rounded corners if desired */
     margin: 30px;
+}
+
+.movie-cell h2 {
+  margin: 10px;
+}
+
+.movie-cell button {
+  margin: 25px;
+  background-color:black;
+}
+
+.general-container {
+  border: 3px dotted white; /* Adjust the color and size as needed */
+  padding: 30px; /* Adjust the padding as needed */
+  border-radius: 5px; /* Add rounded corners if desired */
+  margin: 30px;
 }
 
 body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: rgb(var(--bs-tertiary-color-rgb));
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  h3 {
+    color: goldenrod;
   }
   
   
