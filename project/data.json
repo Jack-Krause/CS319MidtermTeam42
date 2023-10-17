@@ -17,7 +17,7 @@
                 "star": "Jason Bateman",
                 "imdbRating": 8.0,
                 "url": "https://www.imdb.com/title/tt2948356/",
-                "imagePath": "./images/theotherguys1.jpg"
+                "imagePath": "./images/zootopia1.jpg"
             },
             {
                 "id": "c3",
@@ -26,7 +26,7 @@
                 "star": "Michael Cera",
                 "imdbRating": 7.6,
                 "url": "https://www.imdb.com/title/tt0829482/",
-                "imagePath": "./images/theotherguys1.jpg"
+                "imagePath": "./images/superbad1.jpg"
             }
         ],
         "actionMovies": [

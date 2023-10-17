@@ -23,7 +23,7 @@ function getMovie(movieId) {
                 <p>IMDb Rating: ${movie.imdbRating}</p>
                 <p>Genre: ${movie.genre}</p>
                 <p>URL: <a href="${movie.url}">IMDb Link</a></p>
-                <img src="${movie.imagePath}" alt="image">
+                <img src="${movie.imagePath}" alt="image" class="movie-image">
                 `;
                 // tempButton.hidden = true;
                 // const tempCollapse = document.getElementById(`${movieId}_collapse`);
