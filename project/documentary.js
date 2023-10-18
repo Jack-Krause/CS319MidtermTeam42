@@ -18,7 +18,7 @@ function getMovie(movieId) {
       if (movie) {
         console.log(`Found movie with ID: ${movie.id}`);
         movieElement.innerHTML = `
-                  <p>Starring: ${movie.star}</p>
+                  <p>Topic: ${movie.topic}</p>
                   <p>IMDb Rating: ${movie.imdbRating}</p>
                   <p>Genre: ${movie.genre}</p>
                   <p>URL: <a href="${movie.url}">IMDb Link</a></p>
