@@ -2,7 +2,7 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 .movie-cell {
-    border: 5px solid white; /* Adjust the color and size as needed */
+    border: 7px solid black; /* Adjust the color and size as needed */
     padding: 25px; /* Adjust the padding as needed */
     border-radius: 5px; /* Add rounded corners if desired */
     margin: 30px;
