@@ -30,7 +30,7 @@ carouselItemC.addEventListener("mouseleave", function() {
 //functions to change elements
 function mouseHover(elementName) {
     let el = document.getElementById(elementName);
-    el.style.color = "red";
+    el.style.color = "steelblue";
 }
 
 function mouseExit(elementName) {
