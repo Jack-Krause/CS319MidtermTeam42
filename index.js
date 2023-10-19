@@ -35,7 +35,7 @@ function mouseHover(elementName) {
 
 function mouseExit(elementName) {
     let el = document.getElementById(elementName);
-    el.style.color = "white";
+    el.style.color = "black";
 }
 
 
