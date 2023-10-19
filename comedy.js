@@ -49,7 +49,7 @@ function mouseOnContainer(elementName) {
 
 function mouseExit(elementName) {
   let el = document.getElementById(elementName);
-  el.style.color = "black";
+  el.style.color = "white";
 }
 
 // for comedy-c1
